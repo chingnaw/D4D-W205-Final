@@ -1,113 +1,113 @@
 County,Congressional_District,District_of_Concern
-Alamance,6,no_concerns
-Alexander,5,no_concerns
-Alleghany,5,no_concerns
-Anson,9,no_concerns
-Ashe,5,no_concerns
-Avery,5,no_concerns
-Beaufort,3,no_concerns
-Bertie,1,dist_of_concern
-Bladen,7,no_concerns
-Bladen,9,no_concerns
-Brunswick,7,no_concerns
-Buncombe,10,no_concerns
-Buncombe,11,no_concerns
-Burke,11,no_concerns
-Cabarrus,8,no_concerns
-Caldwell,11,no_concerns
-Camden,3,no_concerns
-Carteret,3,no_concerns
-Caswell,6,no_concerns
-Catawba,5,no_concerns
-Catawba,10,no_concerns
-Chatham,6,no_concerns
-Cherokee,11,no_concerns
-Chowan,3,no_concerns
-Clay,11,no_concerns
-Cleveland,10,no_concerns
-Columbus,7,no_concerns
-Craven,3,no_concerns
-Cumberland,8;9,no_concerns
-Currituck,3,no_concerns
-Dare,3,no_concerns
-Davidson,13,no_concerns
-Davie,13,no_concerns
-Duplin,7,no_concerns
-Durham,1,dist_of_concern
-Durham,4,no_concerns
-Edgecombe,1,dist_of_concern
-Forsyth,5,no_concerns
-Franklin,2,no_concerns
-Gaston,10,no_concerns
-Gates,1,dist_of_concern
-Graham,11,no_concerns
-Granville,1,dist_of_concern
-Greene,3,no_concerns
-Guilford,6,no_concerns
-Guilford,13,no_concerns
-Halifax,1,dist_of_concern
-Harnett,2,no_concerns
-Haywood,11,no_concerns
-Henderson,11,no_concerns
-Hertford,1,dist_of_concern
-Hoke,8,no_concerns
-Hyde,3,no_concerns
-Iredell,10,no_concerns
-Iredell,13,no_concerns
-Jackson,11,no_concerns
-Johnston,2,no_concerns
-Johnston,7,no_concerns
-Jones,3,no_concerns
-Lee,6,no_concerns
-Lenoir,3,no_concerns
-Lincoln,10,no_concerns
-Macon,11,no_concerns
-Madison,11,no_concerns
-Martin,1,dist_of_concern
-McDowell,11,no_concerns
-Mecklenburg,12,dist_of_concern
-Mecklenburg,9,no_concerns
-Mitchell,11,no_concerns
-Montgomery,8,no_concerns
-Moore,8,no_concerns
-Nash,2,no_concerns
-New_Hanover,7,no_concerns
-Northampton,1,dist_of_concern
-Onslow,3,no_concerns
-Orange,4,no_concerns
-Pamlico,3,no_concerns
-Pasquotank,3,no_concerns
-Pender,7,no_concerns
-Perquimans,3,no_concerns
-Person,6,no_concerns
-Pitt,1,dist_of_concern
-Pitt,3,no_concerns
-Polk,10,no_concerns
-Randolph,6,no_concerns
-Richmond,9,no_concerns
-Robeson,9,no_concerns
-Rockingham,6,no_concerns
-Rowan,8,no_concerns
-Rowan,13,no_concerns
-Rutherford,10,no_concerns
-Sampson,7,no_concerns
-Scotland,9,no_concerns
-Stanly,8,no_concerns
-Stokes,5,no_concerns
-Surry,5,no_concerns
-Swain,11,no_concerns
-Transylvania,11,no_concerns
-Tyrrell,3,no_concerns
-Union,9,no_concerns
-Vance,1,dist_of_concern
-Wake,2,no_concerns
-Wake,4,no_concerns
-Warren,1,dist_of_concern
-Washington,1,dist_of_concern
-Watauga,5,no_concerns
-Wayne,7,no_concerns
-Wilkes,5,no_concerns
-Wilson,1,dist_of_concern
-Wilson,2,no_concerns
-Yadkin,5,no_concerns
-Yancey,11,no_concerns
+Alamance County,6,no concerns
+Alexander County,5,no concerns
+Alleghany County,5,no concerns
+Anson County,9,no concerns
+Ashe County,5,no concerns
+Avery County,5,no concerns
+Beaufort County,3,no concerns
+Bertie County,1,dist of concern
+Bladen County,7,no concerns
+Bladen County,9,no concerns
+Brunswick County,7,no concerns
+Buncombe County,10,no concerns
+Buncombe County,11,no concerns
+Burke County,11,no concerns
+Cabarrus County,8,no concerns
+Caldwell County,11,no concerns
+Camden County,3,no concerns
+Carteret County,3,no concerns
+Caswell County,6,no concerns
+Catawba County,5,no concerns
+Catawba County,10,no concerns
+Chatham County,6,no concerns
+Cherokee County,11,no concerns
+Chowan County,3,no concerns
+Clay County,11,no concerns
+Cleveland County,10,no concerns
+Columbus County,7,no concerns
+Craven County,3,no concerns
+Cumberland County,8,no concerns
+Currituck County,3,no concerns
+Dare County,3,no concerns
+Davidson County,13,no concerns
+Davie County,13,no concerns
+Duplin County,7,no concerns
+Durham County,1,dist of concern
+Durham County,4,no concerns
+Edgecombe County,1,dist of concern
+Forsyth County,5,no concerns
+Franklin County,2,no concerns
+Gaston County,10,no concerns
+Gates County,1,dist of concern
+Graham County,11,no concerns
+Granville County,1,dist of concern
+Greene County,3,no concerns
+Guilford County,6,no concerns
+Guilford County,13,no concerns
+Halifax County,1,dist of concern
+Harnett County,2,no concerns
+Haywood County,11,no concerns
+Henderson County,11,no concerns
+Hertford County,1,dist of concern
+Hoke County,8,no concerns
+Hyde County,3,no concerns
+Iredell County,10,no concerns
+Iredell County,13,no concerns
+Jackson County,11,no concerns
+Johnston County,2,no concerns
+Johnston County,7,no concerns
+Jones County,3,no concerns
+Lee County,6,no concerns
+Lenoir County,3,no concerns
+Lincoln County,10,no concerns
+Macon County,11,no concerns
+Madison County,11,no concerns
+Martin County,1,dist of concern
+McDowell County,11,no concerns
+Mecklenburg County,12,dist of concern
+Mecklenburg County,9,no concerns
+Mitchell County,11,no concerns
+Montgomery County,8,no concerns
+Moore County,8,no concerns
+Nash County,2,no concerns
+New Hanover County,7,no concerns
+Northampton County,1,dist of concern
+Onslow County,3,no concerns
+Orange County,4,no concerns
+Pamlico County,3,no concerns
+Pasquotank County,3,no concerns
+Pender County,7,no concerns
+Perquimans County,3,no concerns
+Person County,6,no concerns
+Pitt County,1,dist of concern
+Pitt County,3,no concerns
+Polk County,10,no concerns
+Randolph County,6,no concerns
+Richmond County,9,no concerns
+Robeson County,9,no concerns
+Rockingham County,6,no concerns
+Rowan County,8,no concerns
+Rowan County,13,no concerns
+Rutherford County,10,no concerns
+Sampson County,7,no concerns
+Scotland County,9,no concerns
+Stanly County,8,no concerns
+Stokes County,5,no concerns
+Surry County,5,no concerns
+Swain County,11,no concerns
+Transylvania County,11,no concerns
+Tyrrell County,3,no concerns
+Union County,9,no concerns
+Vance County,1,dist of concern
+Wake County,2,no concerns
+Wake County,4,no concerns
+Warren County,1,dist of concern
+Washington County,1,dist of concern
+Watauga County,5,no concerns
+Wayne County,7,no concerns
+Wilkes County,5,no concerns
+Wilson County,1,dist of concern
+Wilson County,2,no concerns
+Yadkin County,5,no concerns
+Yancey County,11,no concerns

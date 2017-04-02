@@ -1,121 +1,121 @@
 County,Congressional_District,District_of_Concern
-Adams,2,no_concerns
-Allen,4,no_concerns
-Ashland,7,no_concerns
-Ashtabula,14,no_concerns
-Athens,6,no_concerns
-Athens,15,dist_of_concern
-Auglaize,4,no_concerns
-Belmont,6,no_concerns
-Brown,2,no_concerns
-Butler,8,no_concerns
-Carroll,6,no_concerns
-Champaign,4,no_concerns
-Clark,8,no_concerns
-Clermont,2,no_concerns
-Clinton,15,dist_of_concern
-Columbiana,6,no_concerns
-Coshocton,7,no_concerns
-Crawford,4,no_concerns
-Cuyahoga,9,dist_of_concern
-Cuyahoga,11,no_concerns
-Cuyahoga,14,no_concerns
-Cuyahoga,16,no_concerns
-Darke,8,no_concerns
-Defiance,5,no_concerns
-Delaware,12,dist_of_concern
-Erie,4,no_concerns
-Erie,9,dist_of_concern
-Fairfield,15,dist_of_concern
-Fayette,10,no_concerns
-Fayette,15,dist_of_concern
-Franklin,3,dist_of_concern
-Franklin,12,dist_of_concern
-Franklin,15,dist_of_concern
-Fulton,5,no_concerns
-Gallia,6,no_concerns
-Geauga,14,no_concerns
-Greene,10,no_concerns
-Guernsey,6,no_concerns
-Hamilton,1,no_concerns
-Hamilton,2,no_concerns
-Hancock,5,no_concerns
-Hardin,5,no_concerns
-Harrison,6,no_concerns
-Henry,5,no_concerns
-Highland,2,no_concerns
-Hocking,15,dist_of_concern
-Holmes,7,no_concerns
-Huron,7,no_concerns
-Huron,7,no_concerns
-Jackson,6,no_concerns
-Jefferson,6,no_concerns
-Knox,7,no_concerns
-Lake,14,no_concerns
-Lawrence,6,no_concerns
-Licking,12,dist_of_concern
-Logan,4,no_concerns
-Lorain,4,no_concerns
-Lorain,7,no_concerns
-Lorain,9,dist_of_concern
-Lucas,5,no_concerns
-Lucas,9,dist_of_concern
-Madison,15,dist_of_concern
-Mahoning,6,no_concerns
-Mahoning,13,no_concerns
-Marion,4,no_concerns
-Marion,12,dist_of_concern
-Medina,7,no_concerns
-Medina,16,no_concerns
-Meigs,6,no_concerns
-Mercer,4,no_concerns
-Mercer,5,no_concerns
-Mercer,8,no_concerns
-Miami,8,no_concerns
-Monroe,6,no_concerns
-Montgomery,10,no_concerns
-Morgan,15,dist_of_concern
-Morrow,12,dist_of_concern
-Muskingum,12,dist_of_concern
-Muskingum,6,no_concerns
-Noble,6,no_concerns
-Ottawa,5,no_concerns
-Ottawa,9,dist_of_concern
-Paulding,5,no_concerns
-Perry,15,dist_of_concern
-Pickaway,15,dist_of_concern
-Pike,2,no_concerns
-Portage,13,no_concerns
-Portage,14,no_concerns
-Portage,16,no_concerns
-Preble,8,no_concerns
-Putnam,5,no_concerns
-Richland,7,no_concerns
-Richland,12,dist_of_concern
-Ross,2,no_concerns
-Ross,15,dist_of_concern
-Sandusky,4,no_concerns
-Scioto,2,no_concerns
-Scioto,6,no_concerns
-Seneca,4,no_concerns
-Shelby,4,no_concerns
-Stark,7,no_concerns
-Stark,13,no_concerns
-Stark,16,no_concerns
-Summit,11,no_concerns
-Summit,13,no_concerns
-Summit,14,no_concerns
-Summit,16,no_concerns
-Trumbull,13,no_concerns
-Trumbull,14,no_concerns
-Tuscarawas,6,no_concerns
-Tuscarawas,7,no_concerns
-Union,4,no_concerns
-Van_Wert,5,no_concerns
-Vinton,15,dist_of_concern
-Warren,1,no_concerns
-Washington,6,no_concerns
-Wayne,16,no_concerns
-Williams,5,no_concerns
-Wood,5,no_concerns
-Wyandot,5,no_concerns
+Adams County,2,no concerns
+Allen County,4,no concerns
+Ashland County,7,no concerns
+Ashtabula County,14,no concerns
+Athens County,6,no concerns
+Athens County,15,dist of concern
+Auglaize County,4,no concerns
+Belmont County,6,no concerns
+Brown County,2,no concerns
+Butler County,8,no concerns
+Carroll County,6,no concerns
+Champaign County,4,no concerns
+Clark County,8,no concerns
+Clermont County,2,no concerns
+Clinton County,15,dist of concern
+Columbiana County,6,no concerns
+Coshocton County,7,no concerns
+Crawford County,4,no concerns
+Cuyahoga County,9,dist of concern
+Cuyahoga County,11,no concerns
+Cuyahoga County,14,no concerns
+Cuyahoga County,16,no concerns
+Darke County,8,no concerns
+Defiance County,5,no concerns
+Delaware County,12,dist of concern
+Erie County,4,no concerns
+Erie County,9,dist of concern
+Fairfield County,15,dist of concern
+Fayette County,10,no concerns
+Fayette County,15,dist of concern
+Franklin County,3,dist of concern
+Franklin County,12,dist of concern
+Franklin County,15,dist of concern
+Fulton County,5,no concerns
+Gallia County,6,no concerns
+Geauga County,14,no concerns
+Greene County,10,no concerns
+Guernsey County,6,no concerns
+Hamilton County,1,no concerns
+Hamilton County,2,no concerns
+Hancock County,5,no concerns
+Hardin County,5,no concerns
+Harrison County,6,no concerns
+Henry County,5,no concerns
+Highland County,2,no concerns
+Hocking County,15,dist of concern
+Holmes County,7,no concerns
+Huron County,7,no concerns
+Huron County,7,no concerns
+Jackson County,6,no concerns
+Jefferson County,6,no concerns
+Knox County,7,no concerns
+Lake County,14,no concerns
+Lawrence County,6,no concerns
+Licking County,12,dist of concern
+Logan County,4,no concerns
+Lorain County,4,no concerns
+Lorain County,7,no concerns
+Lorain County,9,dist of concern
+Lucas County,5,no concerns
+Lucas County,9,dist of concern
+Madison County,15,dist of concern
+Mahoning County,6,no concerns
+Mahoning County,13,no concerns
+Marion County,4,no concerns
+Marion County,12,dist of concern
+Medina County,7,no concerns
+Medina County,16,no concerns
+Meigs County,6,no concerns
+Mercer County,4,no concerns
+Mercer County,5,no concerns
+Mercer County,8,no concerns
+Miami County,8,no concerns
+Monroe County,6,no concerns
+Montgomery County,10,no concerns
+Morgan County,15,dist of concern
+Morrow County,12,dist of concern
+Muskingum County,12,dist of concern
+Muskingum County,6,no concerns
+Noble County,6,no concerns
+Ottawa County,5,no concerns
+Ottawa County,9,dist of concern
+Paulding County,5,no concerns
+Perry County,15,dist of concern
+Pickaway County,15,dist of concern
+Pike County,2,no concerns
+Portage County,13,no concerns
+Portage County,14,no concerns
+Portage County,16,no concerns
+Preble County,8,no concerns
+Putnam County,5,no concerns
+Richland County,7,no concerns
+Richland County,12,dist of concern
+Ross County,2,no concerns
+Ross County,15,dist of concern
+Sandusky County,4,no concerns
+Scioto County,2,no concerns
+Scioto County,6,no concerns
+Seneca County,4,no concerns
+Shelby County,4,no concerns
+Stark County,7,no concerns
+Stark County,13,no concerns
+Stark County,16,no concerns
+Summit County,11,no concerns
+Summit County,13,no concerns
+Summit County,14,no concerns
+Summit County,16,no concerns
+Trumbull County,13,no concerns
+Trumbull County,14,no concerns
+Tuscarawas County,6,no concerns
+Tuscarawas County,7,no concerns
+Union County,4,no concerns
+Van Wert County,5,no concerns
+Vinton County,15,dist of concern
+Warren County,1,no concerns
+Washington County,6,no concerns
+Wayne County,16,no concerns
+Williams County,5,no concerns
+Wood County,5,no concerns
+Wyandot County,5,no concerns
