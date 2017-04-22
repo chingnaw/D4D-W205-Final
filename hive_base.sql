@@ -658,7 +658,7 @@ fm_15 string,
 fm_16 string,
 fm_17 string,
 fm_18 string,
-fm_19 string,
+fm_19 string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
