@@ -30,11 +30,11 @@ Hive figure it out for us with
 WHERE col_65 LIKE 'County'
 """
 
-nc_geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("nc_geo_cleaned.csv", 
+nc_geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("nc_geo_cleaned.txt", 
 	sep = ',', index=False, index_label=False, columns = None, header=False)
 
-# oh_geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("oh_geo_cleaned.csv", 
+# oh_geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("oh_geo_cleaned.txt", 
 # 	sep = ',', index=False, index_label=False, columns = None, header=False)
 
-# tn_geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("tn_geo_cleaned.csv", 
+# tn_geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("tn_geo_cleaned.txt", 
 # 	sep = ',', index=False, index_label=False, columns = None, header=False)
