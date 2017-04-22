@@ -725,7 +725,7 @@ chariter string,
 cifsn string,
 logrecno string,
 total string,
-not_sub string
+not_sub string,
 sub string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
