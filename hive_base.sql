@@ -1682,8 +1682,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37i';
 
-drop table geo;
-create external table geo
+drop table geo_cleaned;
+create external table geo_cleaned
 (
 filedid string,
 stusab string,
@@ -1699,4 +1699,4 @@ WITH SERDEPROPERTIES (
 "escapeChar" = '\\'
 )
 STORED AS TEXTFILE
-LOCATION '/user/w205/tn_d4d/geo';
+LOCATION '/user/w205/tn_d4d/geo_cleaned';
