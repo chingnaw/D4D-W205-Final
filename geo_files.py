@@ -31,10 +31,10 @@ WHERE col_65 LIKE 'County'
 """
 
 nc_geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("nc_geo_cleaned.csv", 
-	sep = ',', index=False, index_label=False, columns = cols)
+	sep = ',', index=False, index_label=False, columns = None, header=False)
 
 # oh_geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("oh_geo_cleaned.csv", 
-# 	sep = ',', index=False, index_label=False, columns = cols)
+# 	sep = ',', index=False, index_label=False, columns = None, header=False)
 
 # tn_geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("tn_geo_cleaned.csv", 
-# 	sep = ',', index=False, index_label=False, columns = cols)
+# 	sep = ',', index=False, index_label=False, columns = None, header=False)
