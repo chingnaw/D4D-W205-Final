@@ -24,5 +24,23 @@ Create proper tables that are PostgresSQL ready from raw US Census Gov data.
     -m map file (default is 'sf1_table_map.csv', located in folder you are running in)
     -s state (ex. tn, ca, nc, etc)
     -t text header names (default is number header names. trigger by putting '-t')
-    
-    
+
+##Joining the Data Together
+
+Once the geo tables, the SF1 tables of importance, and the County/CD maps are loaded into HDFS, we can now start doing the fun stuff.  The SF1 tables contain multiple levels of geographic representation, including the whole state, blocks, Census tracts, and counties.  For our w205 analysis, we used the County data.  D4D will ultimately use the block data when the shapefile team completes their cleaning project.  For our purposes, it was not feasible to groom both SF1 data and Shapefiles.  Shapefiles require knowledge of CAD and GPS data that are beyond the scope of our project.  We can subset each p-table by county via joining to the geo file and the county/distric map:
+
+```
+SELECT
+p.*,
+g.*,
+c.*
+FROM tn_p1 p
+JOIN tn_geo_cleaned g
+ON concat(p.filedid,'-',p.stusab,'-',p.chariter,'-',p.cifsn,'-',p.logrecno) = concat(g.filedid,'-',g.stusab,'-',g.chariter,'-',g.cifsn,'-',g.logrecno)
+JOIN tn_dist_county_map c
+on UPPER(g.location) = UPPER(c.county)
+WHERE
+UPPER(g.location) LIKE '%COUNTY'
+and UPPER(g.location) NOT LIKE '%(PART)%';
+```
+
