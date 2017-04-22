@@ -1681,3 +1681,22 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37i';
+
+drop table geo;
+create external table geo
+(
+filedid string,
+stusab string,
+chariter string,
+cifsn string,
+logrecno string,
+location_name string
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+"separatorChar" = ",",
+"quoteChar" = '"',
+"escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/tn_d4d/geo';
