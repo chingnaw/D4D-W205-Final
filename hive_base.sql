@@ -185,7 +185,7 @@ drop table p8;
 create external table p8
 (
 filedid string,
-stusab string,                                             
+stusab string,
 chariter string,
 cifsn string,
 logrecno string,
