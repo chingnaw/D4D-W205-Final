@@ -1,0 +1,103 @@
+Anderson County,3,no concerns
+Bedford County,4,no concerns
+Benton County,7,dist of concern
+Benton County,8,no concerns
+Bledsoe County,4,no concerns
+Blount County,2,no concerns
+Bradley County,4,no concerns
+Bradley County,3,no concerns
+Campbell County,2,no concerns
+Campbell County,3,no concerns
+Cannon County,6,no concerns
+Carroll County,8,no concerns
+Carter County,1,no concerns
+Cheatham County,6,no concerns
+Cheatham County,5,no concerns
+Chester County,7,dist of concern
+Claiborne County,2,no concerns
+Clay County,6,no concerns
+Cocke County,1,no concerns
+Coffee County,6,no concerns
+Crockett County,8,no concerns
+Cumberland County,6,no concerns
+Davidson County,5,no concerns
+DeKalb County,6,no concerns
+Decatur County,7,dist of concern
+Dickson County,5,no concerns
+Dyer County,8,no concerns
+Fayette County,8,no concerns
+Fentress County,6,no concerns
+Franklin County,4,no concerns
+Gibson County,8,no concerns
+Giles County,7,dist of concern
+Grainger County,2,no concerns
+Greene County,1,no concerns
+Grundy County,4,no concerns
+Hamblen County,1,no concerns
+Hamilton County,3,no concerns
+Hancock County,1,no concerns
+Hardeman County,7,dist of concern
+Hardin County,7,dist of concern
+Hawkins County,1,no concerns
+Haywood County,8,no concerns
+Henderson County,7,dist of concern
+Henry County,8,no concerns
+Hickman County,7,dist of concern
+Houston County,7,dist of concern
+Humphreys County,7,dist of concern
+Jackson County,6,no concerns
+Jefferson County,1,no concerns
+Jefferson County,2,no concerns
+Johnson County,1,no concerns
+Knox County,2,no concerns
+Lake County,8,no concerns
+Lauderdale County,8,no concerns
+Lawrence County,7,dist of concern
+Lewis County,7,dist of concern
+Lincoln County,4,no concerns
+Loudon County,2,no concerns
+Macon County,6,no concerns
+Madison County,8,no concerns
+Marion County,4,no concerns
+Marshall County,4,no concerns
+Maury County,4,no concerns
+Maury County,7,dist of concern
+McMinn County,3,no concerns
+McNairy County,7,dist of concern
+Meigs County,4,no concerns
+Monroe County,3,no concerns
+Montgomery County,7,dist of concern
+Moore County,4,no concerns
+Morgan County,3,no concerns
+Obion County,8,no concerns
+Overton County,6,no concerns
+Perry County,7,dist of concern
+Pickett County,6,no concerns
+Polk County,3,no concerns
+Putnam County,6,no concerns
+Rhea County,4,no concerns
+Roane County,3,no concerns
+Robertson County,6,no concerns
+Rutherford County,4,no concerns
+Scott County,3,no concerns
+Sequatchie County,4,no concerns
+Sevier County,1,no concerns
+Shelby County,8,no concerns
+Shelby County,9,no concerns
+Smith County,6,no concerns
+Stewart County,7,dist of concern
+Sullivan County,1,no concerns
+Sumner County,6,no concerns
+Tipton County,8,no concerns
+Trousdale County,6,no concerns
+Unicoi County,1,no concerns
+Union County,3,no concerns
+Van Buren County,4,no concerns
+Van Buren County,6,no concerns
+Warren County,4,no concerns
+Washington County,1,no concerns
+Wayne County,7,dist of concern
+Weakley County,8,no concerns
+White County,6,no concerns
+Williamson County,7,dist of concern
+Wilson County,6,no concerns

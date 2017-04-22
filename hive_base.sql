@@ -17,7 +17,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p1';
 
-!echo('completed p1')
+!echo 'completed p1' ;
 
 drop table p2;
 create external table p2
@@ -42,6 +42,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p2';
+
+!echo 'completed p2' ;
 
 drop table p3;
 create external table p3
@@ -69,6 +71,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p3';
 
+!echo 'completed p3' ;
+
 drop table p4;
 create external table p4
 (
@@ -90,7 +94,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p4';
 
-!echo('completed p4')
+!echo 'completed p4' ;
 
 drop table p5;
 create external table p5
@@ -127,6 +131,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p5';
 
+!echo 'completed p5' ;
+
 drop table p6;
 create external table p6
 (
@@ -151,6 +157,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p6';
+
+!echo 'completed p6' ;
 
 drop table p7;
 create external table p7
@@ -185,7 +193,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p7';
 
-!echo('completed p7')
+!echo 'completed p7' ;
 
 drop table p8;
 create external table p8
@@ -275,7 +283,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p8';
 
-!echo('completed p8')
+!echo 'completed p8' ;
 
 drop table p9;
 create external table p9
@@ -347,7 +355,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p9';
 
-!echo('completed p9')
+!echo 'completed p9' ;
 
 drop table p10;
 create external table p10
@@ -436,7 +444,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p10';
 
-!echo('completed p10')
+!echo 'completed p10' ;
 
 drop table p11;
 create external table p11
@@ -506,7 +514,7 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p11';
 
-!echo('completed p11')
+!echo 'completed p11' ;
 
 drop table p12;
 create external table p12
@@ -575,6 +583,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p12';
 
+!echo 'completed p12' ;
+
 drop table p13;
 create external table p13
 (
@@ -595,6 +605,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p13';
+
+!echo 'completed p13' ;
 
 drop table p14;
 create external table p14
@@ -657,6 +669,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p14';
 
+!echo 'completed p14' ;
+
 drop table p35;
 create external table p35
 (
@@ -675,6 +689,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p35';
+
+!echo 'completed p35' ;
 
 drop table p36;
 create external table p36
@@ -698,6 +714,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p36';
 
+!echo 'completed p36' ;
+
 drop table p44;
 create external table p44
 (
@@ -718,6 +736,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p44';
+
+!echo 'completed p44' ;
 
 drop table p45;
 create external table p45
@@ -740,6 +760,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p45';
 
+!echo 'completed p45' ;
+
 drop table p46;
 create external table p46
 (
@@ -760,6 +782,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p46';
+
+!echo 'completed p46' ;
 
 drop table p47;
 create external table p47
@@ -782,6 +806,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p47';
 
+!echo 'completed p47' ;
+
 drop table p48;
 create external table p48
 (
@@ -803,6 +829,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p48';
 
+!echo 'completed p48' ;
+
 drop table p49;
 create external table p49
 (
@@ -823,6 +851,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p49';
+
+!echo 'completed p49' ;
 
 drop table p12a;
 create external table p12a
@@ -891,6 +921,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p12a';
 
+!echo 'completed p12a' ;
+
 drop table p12b;
 create external table p12b
 (
@@ -957,6 +989,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p12b';
+
+!echo 'completed p12b' ;
 
 drop table p12d;
 create external table p12d
@@ -1025,6 +1059,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p12d';
 
+!echo 'completed p12d' ;
+
 drop table p12e;
 create external table p12e
 (
@@ -1091,6 +1127,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p12e';
+
+!echo 'completed p12e' ;
 
 drop table p12f;
 create external table p12f
@@ -1159,6 +1197,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p12f';
 
+!echo 'completed p12f' ;
+
 drop table p12g;
 create external table p12g
 (
@@ -1225,6 +1265,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p12g';
+
+!echo 'completed p12g' ;
 
 drop table p12h;
 create external table p12h
@@ -1293,6 +1335,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p12h';
 
+!echo 'completed p12h' ;
+
 drop table p12i;
 create external table p12i
 (
@@ -1360,6 +1404,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p12i';
 
+!echo 'completed p12i' ;
+
 drop table p13a;
 create external table p13a
 (
@@ -1380,6 +1426,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p13a';
+
+!echo 'completed p13a' ;
 
 drop table p13b;
 create external table p13b
@@ -1402,6 +1450,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p13b';
 
+!echo 'completed p13b' ;
+
 drop table p13d;
 create external table p13d
 (
@@ -1422,6 +1472,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p13d';
+
+!echo 'completed p13d' ;
 
 drop table p13e;
 create external table p13e
@@ -1444,6 +1496,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p13e';
 
+!echo 'completed p13e' ;
+
 drop table p13f;
 create external table p13f
 (
@@ -1464,6 +1518,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p13f';
+
+!echo 'completed p13f' ;
 
 drop table p13g;
 create external table p13g
@@ -1486,6 +1542,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p13g';
 
+!echo 'completed p13g' ;
+
 drop table p13h;
 create external table p13h
 (
@@ -1506,6 +1564,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p13h';
+
+!echo 'completed p13h' ;
 
 drop table p13i;
 create external table p13i
@@ -1528,6 +1588,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p13i';
 
+!echo 'completed p13i' ;
+
 drop table p37a;
 create external table p37a
 (
@@ -1548,6 +1610,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37a';
+
+!echo 'completed p37a' ;
 
 drop table p37b;
 create external table p37b
@@ -1570,6 +1634,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37b';
 
+!echo 'completed p37b' ;
+
 drop table p37d;
 create external table p37d
 (
@@ -1590,6 +1656,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37d';
+
+!echo 'completed p37d' ;
 
 drop table p37e;
 create external table p37e
@@ -1612,6 +1680,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37e';
 
+!echo 'completed p37e' ;
+
 drop table p37f;
 create external table p37f
 (
@@ -1632,6 +1702,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37f';
+
+!echo 'completed p37f' ;
 
 drop table p37g;
 create external table p37g
@@ -1654,6 +1726,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37g';
 
+!echo 'completed p37g' ;
+
 drop table p37h;
 create external table p37h
 (
@@ -1674,6 +1748,8 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37h';
+
+!echo 'completed p37h' ;
 
 drop table p37i;
 create external table p37i
@@ -1696,6 +1772,8 @@ WITH SERDEPROPERTIES (
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/p37i';
 
+!echo 'completed p37i' ;
+
 drop table geo_cleaned;
 create external table geo_cleaned
 (
@@ -1714,3 +1792,23 @@ WITH SERDEPROPERTIES (
 )
 STORED AS TEXTFILE
 LOCATION '/user/w205/tn_d4d/geo_cleaned';
+
+!echo 'completed geo_cleaned' ;
+
+drop table dist_county_map;
+create external table dist_county_map
+(
+county string,
+district string,
+concern string
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+"separatorChar" = ",",
+"quoteChar" = '"',
+"escapeChar" = '\\'
+)
+STORED AS TEXTFILE
+LOCATION '/user/w205/tn_d4d/dist_county_map';
+
+!echo 'completed county_map' ;
