@@ -61,6 +61,7 @@ for (opt, opt_arg) in optlist:
 
 ##grab header info depending on if they want text info or column number info
 header_info = []
+## insert code to automatically grab header file based on header FOLDER
 f=open(header, 'r')
 lines = f.readlines()
 #print lines
@@ -100,7 +101,8 @@ with open(map,'r') as mapFile:
 
 ##now we need to make the data table that grabs the correct cols from the raw data
 input = open('%s/%s000%s2010.sf1' % (folder,state,data_num), 'r')
-out_nohead = open('%s.no_header.txt' % output, 'w')
+nohead = ''.join(output.split('.')[:-1])+'_no_header.txt'
+out_nohead = open(nohead, 'w')
 
 inputfile = csv.reader(input,delimiter=',')
 for row in inputfile:
@@ -119,8 +121,9 @@ out_nohead.close()
 
 ##make the file with the header
 out = open(output, 'w')
-out.write('%s' % ('\t'.join(header_info)))
-with open('%s.no_header.txt' % output,'r') as inFile:
+out.write('%s' % ('\t'.join(header_info)).strip())
+out.write('\n')
+with open(nohead,'r') as inFile:
     datafile = csv.reader(inFile, delimiter=',')
     for row in datafile:
         out.write('%s\n' % ('\t'.join(row)))
