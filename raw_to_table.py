@@ -1,4 +1,5 @@
 from getopt import getopt
+import pandas as pd
 import sys
 import os
 import re
@@ -156,4 +157,4 @@ Hive figure it out for us with
 WHERE col_65 LIKE 'County'
 """
 
-geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("%s_geo_cleaned_2010_no_header.csv" % state, sep = ',', index=False, index_label=False, columns = None, header=False)
+geo[['col_0','col_1','col_2','col_3','col_4','col_65']].to_csv("%s_geo_cleaned_2010_no_header.txt" % state, sep = '\t', index=False, index_label=False, columns = None, header=False)

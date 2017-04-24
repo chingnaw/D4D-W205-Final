@@ -1786,7 +1786,7 @@ location_name string
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
-"separatorChar" = ",",
+"separatorChar" = "\t",
 "quoteChar" = '"',
 "escapeChar" = '\\'
 )
