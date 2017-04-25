@@ -132,7 +132,7 @@ rects2 = plt.bar(index + bar_width / 2, latino_means, bar_width, alpha=opacity, 
 rects3 = plt.bar(index + bar_width / 2 + 1, asian_means, bar_width, alpha=opacity, color='r', label='Asian')
 plt.xlabel('County', fontsize=15)
 plt.ylabel('Deviation from State Mean', fontsize=15)
-plt.title('Minority Deviation from Mean in Contentious Districts, Tennessee', fontsize=30)
+plt.title('Minority Deviation from Mean in Contentious Districts, %s' % state, fontsize=30)
 plt.xticks(index + bar_width, (dists['location']), rotation=60, label=6)
 plt.axhline(y=1, color='purple', linestyle='dashed', linewidth=4)
 plt.legend(title='Minority Subgroup', fontsize=12)
