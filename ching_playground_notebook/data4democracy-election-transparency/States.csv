@@ -1,0 +1,52 @@
+State,StateName,StateAbbr,ElectoralVotes,AllowsPartyRegistration,VoterIDLaw,VoterIDLawVerbose,ClosedPrimary
+01,Alabama,AL,9,FALSE,3,Non-strict photo ID,FALSE
+02,Alaska,AK,3,TRUE,2,Non-strict non-photo ID,FALSE
+04,Arizona,AZ,11,FALSE,4,Strict non-photo ID,FALSE
+05,Arkansas,AR,6,FALSE,2,Non-strict non-photo ID,FALSE
+06,California,CA,55,TRUE,1,No ID requirement,FALSE
+08,Colorado,CO,9,TRUE,2,Non-strict non-photo ID,FALSE
+09,Connecticut,CT,7,TRUE,2,Non-strict non-photo ID,FALSE
+10,Delaware,DE,3,TRUE,2,Non-strict non-photo ID,TRUE
+11,District of Columbia,DC,3,TRUE,2,Non-strict non-photo ID,FALSE
+12,Florida,FL,29,TRUE,3,Non-strict photo ID,TRUE
+13,Georgia,GA,16,FALSE,5,Strict photo ID,FALSE
+15,Hawaii,HI,4,FALSE,3,Non-strict photo ID,FALSE
+16,Idaho,ID,4,TRUE,3,Non-strict photo ID,FALSE
+17,Illinois,IL,20,FALSE,1,No ID requirement,FALSE
+18,Indiana,IN,11,FALSE,5,Strict photo ID,FALSE
+19,Iowa,IA,6,TRUE,1,No ID requirement,FALSE
+20,Kansas,KS,6,TRUE,5,Strict photo ID,TRUE
+21,Kentucky,KY,8,TRUE,2,Non-strict non-photo ID,TRUE
+22,Louisiana,LA,8,FALSE,3,Non-strict photo ID,FALSE
+23,Maine,ME,4,TRUE,1,No ID requirement,TRUE
+24,Maryland,MD,10,TRUE,1,No ID requirement,FALSE
+25,Massachusetts,MA,11,TRUE,1,No ID requirement,FALSE
+26,Michigan,MI,16,FALSE,3,Non-strict photo ID,FALSE
+27,Minnesota,MN,10,FALSE,1,No ID requirement,FALSE
+28,Mississippi,MS,6,FALSE,5,Strict photo ID,FALSE
+29,Missouri,MO,10,FALSE,2,Non-strict non-photo ID,FALSE
+30,Montana,MT,3,FALSE,2,Non-strict non-photo ID,FALSE
+31,Nebraska,NE,5,TRUE,1,No ID requirement,TRUE
+32,Nevada,NV,6,TRUE,1,No ID requirement,FALSE
+33,New Hampshire,NH,4,TRUE,5,Strict photo ID,FALSE
+34,New Jersey,NJ,14,TRUE,1,No ID requirement,TRUE
+35,New Mexico,NM,5,TRUE,1,No ID requirement,TRUE
+36,New York,NY,29,TRUE,1,No ID requirement,TRUE
+37,North Carolina,NC,15,TRUE,1,No ID requirement,FALSE
+38,North Dakota,ND,3,FALSE,1,No ID requirement,FALSE
+39,Ohio,OH,18,FALSE,4,Strict non-photo ID,FALSE
+40,Oklahoma,OK,7,TRUE,2,Non-strict non-photo ID,FALSE
+41,Oregon,OR,7,TRUE,1,No ID requirement,FALSE
+42,Pennsylvania,PA,20,TRUE,1,No ID requirement,TRUE
+44,Rhode Island,RI,4,TRUE,3,Non-strict photo ID,FALSE
+45,South Carolina,SC,9,FALSE,2,Non-strict non-photo ID,FALSE
+46,South Dakota,SD,3,TRUE,3,Non-strict photo ID,FALSE
+47,Tennessee,TN,11,FALSE,5,Strict photo ID,FALSE
+48,Texas,TX,38,FALSE,4,Strict non-photo ID,FALSE
+49,Utah,UT,6,TRUE,2,Non-strict non-photo ID,FALSE
+50,Vermont,VT,3,FALSE,1,No ID requirement,FALSE
+51,Virginia,VA,13,FALSE,5,Strict photo ID,FALSE
+53,Washington,WA,12,FALSE,2,Non-strict non-photo ID,FALSE
+54,West Virginia,WV,5,TRUE,1,No ID requirement,FALSE
+55,Wisconsin,WI,10,FALSE,5,Strict photo ID,FALSE
+56,Wyoming,WY,3,TRUE,1,No ID requirement,TRUE

@@ -23,7 +23,8 @@ Before analyzing data, the raw data must be converted properly.
     python raw_to_table.py -h
 
     Create proper tables that are PostgresSQL ready from raw US Census Gov data.
-        -f path to folder that contains the raw data
+        
+		-f path to folder that contains the raw data
         -d name of the table you want to create (ex. p1, p12a, etc)
         -o output file name
         -c header file
@@ -42,6 +43,18 @@ Before analyzing data, the raw data must be converted properly.
 Now that all the raw data has been made into clean datasets (tables), we can run some analysis on our data. 
 
 8. Now run the 'gerry_analysis.py' python script to create a bar chart showing the 'Minority Deviation from Mean in Contentious Districts' for your state.
+	--------------------
+	Help menu for this script is:
+	python gerry_analysis.py -h
+
+	Create a plot for the contentious districts difference in population against the mean.
+
+		-i  Input folder.  This should be the folder that contains files generated from raw_to_table.py
+		-s  2-letter State identifier
+	--------------------
+	The output will be a png image file for the race profiles.
+
+
 
 
 
