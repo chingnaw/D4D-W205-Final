@@ -13,8 +13,8 @@ sns.set_style("whitegrid")
 
 HELP_STRING = """Create a plot for the contentious districts difference in population against the mean.
 
-        -i  Input folder.  This should be the folder that contains files generated from raw_to_table.py
-        -s  2-letter State identifier
+    -i  input folder; this should be the folder that contains files generated from raw_to_table.py. required.
+    -s  2-letter state identifier (ex. tn, oh, nc). required.
 
 """
 
