@@ -68,7 +68,7 @@ if(inputFolder == None):
 
 
 
-df = pd.read_csv('%s/%s_geo_cleaned_2010_no_header.txt' % (inputFolder, state), sep=',', header=None, names=['sf', 'st', 'a', 'b', 'c', 'location'], dtype=str)
+df = pd.read_csv('%s/%s_geo_cleaned_2010_no_header.txt' % (inputFolder, state), sep='\t', header=None, names=['sf', 'st', 'a', 'b', 'c', 'location'], dtype=str)
 tn_county_map = pd.read_csv('%s_dist_county_map.csv' % state, sep = ',')
 #p5 combines race and latino origin
 p5 = pd.read_csv('%s/%s_p5_2010.txt' % (inputFolder,state), sep = '\t')
