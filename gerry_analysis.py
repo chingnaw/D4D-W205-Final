@@ -13,8 +13,8 @@ sns.set_style("whitegrid")
 
 HELP_STRING = """Create a plot for the contentious districts difference in population against the mean.
 
-    -i  input folder; this should be the folder that contains files generated from raw_to_table.py. required.
-    -s  2-letter state identifier (ex. tn, oh, nc). required.
+    -i  input folder; this should be the folder that contains files generated from raw_to_table.py. required
+    -s  2-letter state identifier (ex. tn, oh, nc). required
 
 """
 
@@ -22,6 +22,7 @@ HELP_STRING = """Create a plot for the contentious districts difference in popul
 # DEFAULTS
 indices = [0]
 inputFolder = None
+# county_input = None
 state = None
 
 def percentages(df):
@@ -36,6 +37,33 @@ def percentages(df):
         df['asian_percentage'] = float(df['Asian_alone'])/df['Total']
         df['latino_percentage'] = float(df['Hispanic_or_Latino_'])/df['Total']
     return df
+
+
+def county_info(county_input):
+    b = str(county_input).upper()
+    q = '''
+        select 
+        location,
+        Congressional_District,
+        District_of_Concern,
+        asian_deviation_from_mean, 
+        african_deviation_from_mean,
+        caucasian_deviation_from_mean,
+        latino_deviation_from_mean
+        from dists
+        where location LIKE \'%'''
+    q += str(b)
+    q += '%\' group by location;'
+    print(q)
+    df1 = pysqldf(q)
+    if df1.shape[0] == 0:
+        print("This county's congressional districts are at low risk for gerrymandering.")
+    else:
+        print(b, "contains the congressional districts ", list(df1['Congressional_District']))
+        print("These congressional districts are", list(df1['District_of_Concern']))
+        print("The deviation from the mean for African American residents in this County is: ", list(df1['african_deviation_from_mean']))
+    return
+
 
 # retrieve the user parameters
 try:
@@ -55,6 +83,8 @@ for (opt, opt_arg) in optlist:
         inputFolder = opt_arg
     elif opt == "-s":
         state = opt_arg
+    # elif opt == "-c":
+    #     county_input = opt_arg
 
 
 # check required parameters exist, and exit otherwise
@@ -100,6 +130,10 @@ dists['caucasian_deviation_from_mean'] = dists['caucasian_percentage'].map(lambd
 dists['latino_deviation_from_mean'] = dists['latino_percentage'].map(lambda x: x/state_latino)
 
 dists.drop_duplicates(inplace = True)
+
+# if county_input:
+#     county_info(county_input)
+
 
 plt.figure(figsize=(20, 20))
 ax = sns.barplot(x='location', y='asian_deviation_from_mean', data = dists)
