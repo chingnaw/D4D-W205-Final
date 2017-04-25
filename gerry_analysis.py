@@ -101,6 +101,29 @@ dists['latino_deviation_from_mean'] = dists['latino_percentage'].map(lambda x: x
 
 dists.drop_duplicates(inplace = True)
 
+plt.figure(figsize=(20, 20))
+ax = sns.barplot(x='location', y='asian_deviation_from_mean', data = dists)
+ax.set_xticklabels(labels=dists['location'],rotation=60)
+ax.set_title('Asian Population Difference from Mean in Contentious Districts, %s' % state.upper())
+sns.plt.savefig('%s_asian_deviation.png' % state.lower())
+
+plt.figure(figsize=(20, 20))
+ax = sns.barplot(x='location', y='african_deviation_from_mean', data = dists)
+ax.set_xticklabels(labels=dists['location'],rotation=60)
+ax.set_title('African Population Difference from Mean in Contentious Districts, %s' % state.upper())
+sns.plt.savefig('%s_african_deviation.png' % state.lower())
+
+plt.figure(figsize=(20, 20))
+ax = sns.barplot(x='location', y='caucasian_deviation_from_mean', data = dists)
+ax.set_xticklabels(labels=dists['location'],rotation=60)
+ax.set_title('Caucasian Population Difference from Mean in Contentious Districts, %s' % state.upper())
+sns.plt.savefig('%s_caucasian_deviation.png' % state.lower())
+
+plt.figure(figsize=(20, 20))
+ax = sns.barplot(x='location', y='latino_deviation_from_mean', data = dists)
+ax.set_xticklabels(labels=dists['location'],rotation=60)
+ax.set_title('Latino Population Difference from Mean in Contentious Districts, %s' % state.upper())
+sns.plt.savefig('%s_latino_deviation.png' % state.lower())
 
 n_groups = dists.shape[0]
 african_means = dists['african_deviation_from_mean']
