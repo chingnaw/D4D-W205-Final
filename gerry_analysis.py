@@ -37,7 +37,7 @@ def percentages(df):
 
 # retrieve the user parameters
 try:
-    optlist, args = getopt(sys.argv[1:], "hi:")
+    optlist, args = getopt(sys.argv[1:], "hi:s:")
 except:
     print "Error retrieving options"
     print ""
@@ -68,14 +68,14 @@ if(inputFolder == None):
 
 
 
-df = pd.read_csv('%s/%s_geo_cleaned_2010_no_header.txt' % (inputFolder, state), sep='\t', header=None, names=['sf', 'st', 'a', 'b', 'c', 'location'], dtype=str)
+df = pd.read_csv('%s/%s_geo_cleaned_2010_no_header.txt' % (inputFolder, state), sep=',', header=None, names=['sf', 'st', 'a', 'b', 'c', 'location'], dtype=str)
 tn_county_map = pd.read_csv('%s_dist_county_map.csv' % state, sep = ',')
 #p5 combines race and latino origin
 p5 = pd.read_csv('%s/%s_p5_2010.txt' % (inputFolder,state), sep = '\t')
 
-geo = df
-
-a = geo[geo['location'].str.contains("County")==True]
+#print df
+a = df[df['location'].str.contains("County")==True]
+#print a
 b = a[a['location'].str.contains("(part)")==False]
 c = b[b['location'].str.contains("Schools")==False].index.values.tolist()
 
@@ -91,7 +91,7 @@ p5[['Not_Hispanic_or_Latino', 'White_alone',
 
 p5_edited = p5[['FILEID', 'STUSAB', 'CHARITER', 'CIFSN', 'LOGRECNO','Total','White_alone','Black_or_African_American_alone','Asian_alone','Hispanic_or_Latino_']].ix[indices]
 p5_percent = p5_edited.apply(percentages, axis=1)
-p5_w_county_name = pd.concat([geo['location'].ix[indices], p5_percent], axis=1)
+p5_w_county_name = pd.concat([df['location'].ix[indices], p5_percent], axis=1)
 
 q = 'select p.*, c.* from p5_w_county_name p join tn_county_map c on c.County = p.location;'
 comb = pysqldf(q)
@@ -137,6 +137,6 @@ plt.xticks(index + bar_width, (dists['location']), rotation=60, label=6)
 plt.axhline(y=1, color='purple', linestyle='dashed', linewidth=4)
 plt.legend(title='Minority Subgroup', fontsize=12)
 plt.tight_layout()
-plt.savefig('%s_gerrymandering_race_profile.png')
+plt.savefig('%s_gerrymandering_race_profile.png' % state)
 
 
