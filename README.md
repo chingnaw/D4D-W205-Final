@@ -44,6 +44,8 @@ Before analyzing data, the raw data must be converted properly.
 Now that all the raw data has been made into clean datasets (tables), we can run some analysis on our data. 
 
 8. Now run the 'gerry_analysis.py' python script to create a bar chart showing the 'Minority Deviation from Mean in Contentious Districts' for your state.
+
+	$ python gerry_analysis.py -s oh -i oh_data_cleaned/
 	--------------------
 	Help menu for this script is:
 	python gerry_analysis.py -h
